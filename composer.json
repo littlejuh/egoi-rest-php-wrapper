@@ -1,0 +1,25 @@
+{
+    "name": "littlejuh/egoi-rest-php-wrapper",
+    "description": "PHP API for E-goi",
+    "keywords": ["e-goi", "email", "marketing", "api", "rest"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Juliana Fernandes",
+            "email": "fernandes.juliana.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+    		"zendframework/zend-json": "2.5.*@dev",
+    		"zendframework/zendrest": "2.0.*@dev"
+        },
+    "autoload": {
+        "classmap": ["src"],
+        "psr-0": {"EgoiRestWrapper": "src/"}
+    },
+    "minimum-stability": "dev"
+}
