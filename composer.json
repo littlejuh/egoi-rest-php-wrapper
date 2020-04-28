@@ -20,6 +20,5 @@
     "autoload": {
         "classmap": ["src"],
         "psr-0": {"EgoiRestWrapper": "src/"}
-    },
-    "minimum-stability": "dev"
+    }
 }
