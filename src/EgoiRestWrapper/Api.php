@@ -40,6 +40,9 @@ use EgoiRestWrapper\Api\RestImpl;
 
 		abstract public function deleteSegment($map);
 
+		
+		abstract public function deleteSubscriber($map);
+
 
 		abstract public function editCampaignEmail($map);
 
@@ -96,5 +99,8 @@ use EgoiRestWrapper\Api\RestImpl;
 
 
 		abstract public function updateList($map);
+
+
+		Abstract public function updateSubscriber($map);
 }
 ?>
