@@ -234,11 +234,6 @@ class RestImpl extends Api {
     }
 
 
-    function removeSubscriber($map) {
-        return $this->call(__FUNCTION__, $map);
-    }
-
-
     function sendCall($map) {
         return $this->call(__FUNCTION__, $map);
     }
